@@ -20,6 +20,7 @@ public:
   complex& operator /= (const complex&);
   double real () const { return re; }
   double imag () const { return im; }
+
 private:
   double re, im;
 
